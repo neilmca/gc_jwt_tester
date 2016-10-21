@@ -1,0 +1,10 @@
+runtime: python27
+module: gcjwt
+threadsafe: true
+api_version: 1
+
+handlers:
+- url: .*
+  script: gc_jwt.application
+
+
